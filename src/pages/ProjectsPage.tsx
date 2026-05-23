@@ -4,7 +4,7 @@ import {
   Globe,
   Smartphone,
   ExternalLink,
-  Github, // Lowercase h, and remove my accidental code comment!
+  Terminal, // 1. Swapped Github to Terminal here!
   ArrowRight,
   Calendar,
   Star,
@@ -13,7 +13,7 @@ import {
   Database,
   Code2,
 } from "lucide-react";
-import { AnimatedSection } from "../components/UI/MagneticCursor";
+import AnimatedSection from "../components/UI/MagneticCursor";
 
 const PROJECTS = [
   {
@@ -317,7 +317,8 @@ export default function ProjectsPage() {
                               rel="noopener noreferrer"
                               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-white/20 bg-white/5 text-white text-sm font-semibold hover:border-sky-500/40 transition-colors"
                             >
-                              <Github size={16} />
+                              <Terminal size={16} />{" "}
+                              {/* 2. Changed this from Github to Terminal */}
                               Source Code
                             </motion.a>
                           )}
