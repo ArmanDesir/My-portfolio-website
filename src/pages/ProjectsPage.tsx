@@ -4,7 +4,7 @@ import {
   Globe,
   Smartphone,
   ExternalLink,
-  Github,
+  Github, // Lowercase h, and remove my accidental code comment!
   ArrowRight,
   Calendar,
   Star,
@@ -12,9 +12,8 @@ import {
   Shield,
   Database,
   Code2,
-  WholeWord as Wordpress,
 } from "lucide-react";
-import { AnimatedSection } from "../components/ui/MagneticCursor";
+import { AnimatedSection } from "../components/UI/MagneticCursor";
 
 const PROJECTS = [
   {

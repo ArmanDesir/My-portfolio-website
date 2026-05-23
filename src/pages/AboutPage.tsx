@@ -10,7 +10,7 @@ import {
   Target,
   Award,
 } from "lucide-react";
-import { AnimatedSection } from "../components/ui/MagneticCursor";
+import { AnimatedSection } from "../components/UI/MagneticCursor";
 
 export default function AboutPage() {
   const timeline = [

@@ -3,15 +3,15 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import ChatBot from "./components/ChatBot";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import ChatBot from "../../components/ChatBot";
 
-import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
-import ProjectsPage from "./pages/ProjectsPage";
-import SkillsPage from "./pages/SkillsPage";
-import ContactPage from "./pages/ContactPage";
+import HomePage from "./../../pages/HomePage";
+import AboutPage from "./../../pages/AboutPage";
+import ProjectsPage from "./../../pages/ProjectsPage";
+import SkillsPage from "./../../pages/SkillsPage";
+import ContactPage from "./../../pages/ContactPage";
 
 function App() {
   const [chatOpen, setChatOpen] = useState(false);

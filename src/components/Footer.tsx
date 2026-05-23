@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
+import { Terminal, Globe, Mail } from "lucide-react";
 
 export default function Footer() {
   const socialLinks = [
-    { icon: Github, href: "https://github.com/armandesir", label: "GitHub" },
+    { icon: Terminal, href: "https://github.com/armandesir", label: "GitHub" }, // Terminal looks great for GitHub
     { icon: Mail, href: "mailto:froschcrow@gmail.com", label: "Email" },
-    { icon: ExternalLink, href: "https://linkedin.com", label: "LinkedIn" },
+    { icon: Globe, href: "https://linkedin.com", label: "LinkedIn" }, // Globe works well for professional links
   ];
 
   return (
